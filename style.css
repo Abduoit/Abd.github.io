@@ -1,0 +1,10 @@
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#intro-image {
+  order: 1;
+  margin-left: auto;
+}
