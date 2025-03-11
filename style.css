@@ -305,6 +305,7 @@ h3 a:hover {
 .research-video {
   flex: 1;
   margin-right: 1em;
+  max-width: 300px; /* Decrease the size of the video */
 }
 
 .research-video video {
