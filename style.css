@@ -285,14 +285,32 @@ h3 a:hover {
 }
 
 .patent-list, .research-publication-list {
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
   background-color: #f9f9f9;
   padding: 10px;
 }
 
 .patent-list p, .research-publication-list p {
-  margin-bottom: 0.5em; /* Add space between lines */
+  margin-bottom: 1em; /* Increase space between lines */
+}
+
+/* Teaching Experience */
+.teaching h2 {
+  font-size: 1.4em;
+  margin-top: 1em;
+  color: #150c21;
+}
+
+.teaching-list {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.teaching-list p {
+  margin-bottom: 1em; /* Increase space between lines */
 }
 
 .project-description {
