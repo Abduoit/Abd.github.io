@@ -197,7 +197,8 @@ h2 {
 
 .previews {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to fit four videos */
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(2, auto); /* 2 rows */
   gap: 20px; /* Increased gap for better spacing */
   height: auto;
 }
