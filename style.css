@@ -291,6 +291,10 @@ h3 a:hover {
   padding: 10px;
 }
 
+.patent-list p, .research-publication-list p {
+  margin-bottom: 0.5em; /* Add space between lines */
+}
+
 .project-description {
   width: 80%;
   float: left;
