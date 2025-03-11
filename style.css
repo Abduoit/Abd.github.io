@@ -197,8 +197,8 @@ h2 {
 
 .previews {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Changed from 200px to 400px */
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted to fit four videos */
+  gap: 20px; /* Increased gap for better spacing */
   height: auto;
 }
 
@@ -223,6 +223,10 @@ h2 {
 .preview3 {
   grid-column: 3;
   width: 100%;
+}
+.preview4 {
+  grid-column: 4;
+  width: 100%;  
 }
 
 /**************************************************/
