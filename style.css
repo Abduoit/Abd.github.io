@@ -313,6 +313,16 @@ h3 a:hover {
   margin-bottom: 1em; /* Increase space between lines */
 }
 
+.teaching-list ul {
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+.teaching-list ul li {
+  margin-bottom: 0.5em;
+}
+
 .project-description {
   width: 80%;
   float: left;
