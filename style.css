@@ -289,6 +289,7 @@ h3 a:hover {
   margin-bottom: 1em;
   background-color: #f9f9f9; /* Debug style to ensure visibility */
   padding: 10px; /* Debug style to ensure visibility */
+  border: 2px solid red; /* Debug style to ensure visibility */
 }
 
 .project-description {
