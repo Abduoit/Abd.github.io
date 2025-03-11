@@ -193,7 +193,7 @@ h2 {
 }
 
 /**************************************************/
-/* Gallery of 3 preview videos. */
+/* Gallery of 4 preview videos. */
 
 .previews {
   display: grid;
@@ -210,23 +210,6 @@ h2 {
 
 .previews a:hover {
   border: none;
-}
-
-.preview1 {
-  grid-column: 1;
-  width: 100%;
-}
-.preview2 {
-  grid-column: 2;
-  width: 100%;
-}
-.preview3 {
-  grid-column: 3;
-  width: 100%;
-}
-.preview4 {
-  grid-column: 4;
-  width: 100%;  
 }
 
 /**************************************************/
