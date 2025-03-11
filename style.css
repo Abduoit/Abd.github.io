@@ -110,6 +110,20 @@ h1 {
   width: 12em;
 }
 
+#location {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+  font-size: 1em;
+  color: #150c21;
+}
+
+.location-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+}
+
 /**************************************************/
 /* Section buttons. */
 
