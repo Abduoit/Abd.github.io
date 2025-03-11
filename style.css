@@ -118,6 +118,7 @@ h1 {
   font-size: 1em; /* Set base font size */
   color: #150c21; /* Set text color */
   margin-top: 1em; /* Add space above the location section */
+  border: 1px solid red; /* Debugging border */
   background: lightgray; /* Temporary background */
 }
 
