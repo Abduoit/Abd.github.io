@@ -292,7 +292,7 @@ h3 a:hover {
 }
 
 .patent-list p, .research-publication-list p {
-  margin-bottom: 1em; /* Increase space between lines */
+  margin-bottom: 1.5em; /* Increase space between lines */
 }
 
 /* Teaching Experience */
