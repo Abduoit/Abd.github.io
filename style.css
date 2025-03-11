@@ -197,7 +197,7 @@ h2 {
 
 .previews {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Changed from 200px to 400px */
   gap: 10px;
   height: auto;
 }
