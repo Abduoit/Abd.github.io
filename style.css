@@ -198,7 +198,6 @@ h2 {
 .previews {
   display: grid;
   grid-template-columns: 1fr 1fr; /* 2 columns */
-  grid-template-rows: auto auto; /* 2 rows */
   gap: 20px; /* Increased gap for better spacing */
   height: auto;
 }
