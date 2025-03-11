@@ -287,6 +287,8 @@ h3 a:hover {
 .patent-list, .research-publication-list {
   margin-top: 0.5em;
   margin-bottom: 1em;
+  background-color: #f9f9f9; /* Debug style to ensure visibility */
+  padding: 10px; /* Debug style to ensure visibility */
 }
 
 .project-description {
