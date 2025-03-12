@@ -98,10 +98,10 @@ h1 {
 }
 
 #intro-image {
-  margin: 2em 0 0 2em; /* Adjust right margin */
+  margin: 2em 2em 0 0; /* Adjust margin for spacing */
   width: 12em;
   height: 12em;
-  float: left; /* Move image to the right */
+  float: right; /* Keep image on the right */
   overflow: hidden;
   border-radius: 1em;
 }
@@ -117,16 +117,9 @@ h1 {
   font-size: 1em;
   color: #150c21;
   margin-top: 1em;
-  clear: both; /* Prevents location from being hidden */
-  border: 1px solid red; /* Debugging border */
-}
-
-#location span:first-child {
-  font-size: 1.2em;
-}
-
-#location span:last-child {
-  font-weight: 500;
+  float: right; /* Move location to the right */
+  text-align: right;
+  margin-right: 2em; /* Adjust spacing */
 }
 
 
