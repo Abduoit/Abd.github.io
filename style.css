@@ -100,10 +100,10 @@ h1 {
 #intro-image {
   margin: 2em 0 0 2em;
   width: 12em;
-  height: 12em;
+  height: auto; /* Adjust height dynamically */
   float: left;
-  overflow: hidden;
   border-radius: 1em;
+  overflow: visible; /* Ensure content isn't cut off */
 }
 
 #intro-image img {
@@ -117,8 +117,18 @@ h1 {
   font-size: 1em;
   color: #150c21;
   margin-top: 1em;
-  clear: both; /* Ensures location appears below */
+  clear: both; /* Prevents location from being hidden */
+  border: 1px solid red; /* Debugging border */
 }
+
+#location span:first-child {
+  font-size: 1.2em;
+}
+
+#location span:last-child {
+  font-weight: 500;
+}
+
 
 
 /**************************************************/
