@@ -110,18 +110,6 @@ h1 {
   width: 12em;
 }
 
-#location {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  font-size: 1em;
-  color: #150c21;
-  margin-top: 1em;
-  float: right; /* Move location to the right */
-  text-align: right;
-  margin-right: 2em; /* Adjust spacing */
-}
-
 
 
 /**************************************************/
