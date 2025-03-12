@@ -96,19 +96,42 @@ h1 {
 
 #intro-text {
   width: 40em;
+
   margin-bottom: 2em; /* Add margin to separate text from the image */
 }
 
 #intro-image {
+
   width: 12em;
   height: 12em;
+
   overflow: hidden;
   border-radius: 1em;
 }
 
 #intro-image img {
+
   width: 100%;
   height: auto;
+}
+
+#location {
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Vertically center the icon and text */
+  gap: 0.5em; /* Add space between the icon and text */
+  font-size: 1em; /* Set base font size */
+  color: #150c21; /* Set text color */
+  margin-top: 1em; /* Add space above the location section */
+
+  background: lightgray; /* Temporary background */
+}
+
+#location span:first-child {
+  font-size: 1.2em; /* Slightly larger size for the emoji */
+}
+
+#location span:last-child {
+  font-weight: 500; /* Slightly bold text for better readability */
 }
 
 
