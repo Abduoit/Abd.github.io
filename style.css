@@ -100,12 +100,12 @@ h1 {
 }
 
 #intro-image {
-  margin: 2em 0 0 2em;
   width: 12em;
   height: 12em;
-  float: right;
   overflow: hidden;
   border-radius: 1em;
+  margin-bottom: 1em;
+  position: relative; /* Establish positioning context */
 }
 
 #intro-image img {
@@ -114,20 +114,13 @@ h1 {
 }
 
 #location {
-  display: flex; /* Align items horizontally */
-  align-items: center; /* Vertically center the icon and text */
-  gap: 0.5em; /* Add space between the icon and text */
-  font-size: 1em; /* Set base font size */
-  color: #150c21; /* Set text color */
-  margin-top: 1em; /* Add space above the location section */
-}
-
-#location span:first-child {
-  font-size: 1.2em; /* Slightly larger size for the emoji */
-}
-
-#location span:last-child {
-  font-weight: 500; /* Slightly bold text for better readability */
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1em;
+  color: #150c21;
+  position: relative; /* Move it relative to its normal position */
+  top: 12em; /* Shift it down by the full height of #intro-image */
 }
 
 /**************************************************/
