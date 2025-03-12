@@ -101,7 +101,7 @@ h1 {
   margin: 2em 2em 0 0; /* Adjust margin for spacing */
   width: 12em;
   height: 12em;
-  float: right; /* Keep image on the right */
+  float: left; /* Keep image on the right */
   overflow: hidden;
   border-radius: 1em;
 }
