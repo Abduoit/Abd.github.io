@@ -117,9 +117,16 @@ h1 {
   font-size: 1em;
   color: #150c21;
   margin-top: 1em;
-  float: right; /* Move location to the right */
-  margin-right: 2em; /* Adjust spacing */
-  text-align: right;
+  clear: both; /* Prevents location from being hidden */
+  border: 1px solid red; /* Debugging border */
+}
+
+#location span:first-child {
+  font-size: 1.2em;
+}
+
+#location span:last-child {
+  font-weight: 500;
 }
 
 
