@@ -98,10 +98,10 @@ h1 {
 }
 
 #intro-image {
-  margin: 2em 2em 0 0; /* Adjust right margin */
+  margin: 2em 0 0 2em; /* Adjust right margin */
   width: 12em;
   height: 12em;
-  float: right; /* Move image to the right */
+  float: left; /* Move image to the right */
   overflow: hidden;
   border-radius: 1em;
 }
