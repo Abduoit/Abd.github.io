@@ -96,15 +96,15 @@ h1 {
 
 #intro-text {
   width: 40em;
-
+  float: left;
   margin-bottom: 2em; /* Add margin to separate text from the image */
 }
 
 #intro-image {
-
+  margin: 2em 0 0 2em;
   width: 12em;
   height: 12em;
-
+  float: left;
   overflow: hidden;
   border-radius: 1em;
 }
