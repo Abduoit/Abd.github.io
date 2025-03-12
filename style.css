@@ -100,7 +100,7 @@ h1 {
 #intro-image {
   width: 12em;
   /* Remove height: 12em; to allow container to expand */
-  overflow: hidden; /* Optional: remove if not needed */
+  /* overflow: hidden; Optional: remove if not needed */
   border-radius: 1em;
   margin-bottom: 1em;
   display: flex; /* Add flexbox */
