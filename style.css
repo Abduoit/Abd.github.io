@@ -111,16 +111,21 @@ h1 {
 }
 
 #location {
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-  font-size: 1em;
-  color: #150c21;
-  margin-top: 1em;
-  border: 1px solid red; /* Debugging border */
-  background: lightgray; /* Temporary background */
+  display: flex; /* Align items horizontally */
+  align-items: center; /* Vertically center the icon and text */
+  gap: 0.5em; /* Add space between the icon and text */
+  font-size: 1em; /* Set base font size */
+  color: #150c21; /* Set text color */
+  margin-top: 1em; /* Add space above the location section */
 }
 
+#location span:first-child {
+  font-size: 1.2em; /* Slightly larger size for the emoji */
+}
+
+#location span:last-child {
+  font-weight: 500; /* Slightly bold text for better readability */
+}
 
 /**************************************************/
 /* Section buttons. */
