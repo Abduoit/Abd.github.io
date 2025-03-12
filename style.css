@@ -382,6 +382,30 @@ h3 a:hover {
 }
 
 /**************************************************/
+/* Education */
+
+.education-list {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.education-list p {
+  margin-bottom: 1em; /* Increase space between lines */
+}
+
+.education-list ul {
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  list-style-type: disc;
+}
+
+.education-list ul li {
+  margin-bottom: 0.5em;
+}
+
+/**************************************************/
 /* Subtle footer at the bottom of the page. */
 
 #footer {
