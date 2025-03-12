@@ -98,19 +98,16 @@ h1 {
 }
 
 #intro-image {
+  margin: 2em 0 0 2em;
   width: 12em;
-  /* Remove height: 12em; to allow container to expand */
-  /* overflow: hidden; Optional: remove if not needed */
+  height: 12em;
+  float: left;
+  overflow: hidden;
   border-radius: 1em;
-  margin-bottom: 1em;
-  display: flex; /* Add flexbox */
-  flex-direction: column; /* Stack vertically */
-  align-items: center; /* Center horizontally */
 }
 
 #intro-image img {
-  width: 100%;
-  height: auto;
+  width: 12em;
 }
 
 #location {
