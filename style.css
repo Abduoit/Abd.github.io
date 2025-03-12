@@ -103,7 +103,7 @@ h1 {
   overflow: hidden;
   border-radius: 1em;
   margin-bottom: 1em;
-  position: relative; /* Establish positioning context */
+  position: relative;
 }
 
 #intro-image img {
@@ -117,10 +117,17 @@ h1 {
   gap: 0.5em;
   font-size: 1em;
   color: #150c21;
-  position: relative; /* Move it relative to its normal position */
-  top: 12em; /* Shift it down by the full height of #intro-image */
+  position: relative;
+  top: 12em; /* Adjust this value if you need more/less space */
 }
 
+#location span:first-child {
+  font-size: 1.2em;
+}
+
+#location span:last-child {
+  font-weight: 500;
+}
 /**************************************************/
 /* Section buttons. */
 
