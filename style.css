@@ -123,6 +123,13 @@ h1 {
   top: 13em; /* Shift it down by the full height of #intro-image */
 }
 
+#location span:first-child {
+  font-size: 1.2em;
+}
+
+#location span:last-child {
+  font-weight: 500;
+}
 /**************************************************/
 /* Section buttons. */
 
