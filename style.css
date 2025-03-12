@@ -99,11 +99,13 @@ h1 {
 
 #intro-image {
   width: 12em;
-  height: 12em;
-  overflow: hidden;
+  /* Remove height: 12em; to allow container to expand */
+  overflow: hidden; /* Optional: remove if not needed */
   border-radius: 1em;
   margin-bottom: 1em;
-  position: relative;
+  display: flex; /* Add flexbox */
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center horizontally */
 }
 
 #intro-image img {
@@ -117,8 +119,7 @@ h1 {
   gap: 0.5em;
   font-size: 1em;
   color: #150c21;
-  position: relative;
-  top: 12em; /* Adjust this value if you need more/less space */
+  margin-top: 1em;
 }
 
 #location span:first-child {
@@ -128,6 +129,7 @@ h1 {
 #location span:last-child {
   font-weight: 500;
 }
+
 /**************************************************/
 /* Section buttons. */
 
