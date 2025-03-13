@@ -321,8 +321,8 @@ h3 a:hover {
 }
 
 /* Increase space between each point in the research publication section */
-.research-publication-list > * {
-  margin-bottom: 2em;
+.research-publication-list ul li {
+  margin-bottom: 1.5em; /* Increase space between lines */
 }
 
 /* Research */
