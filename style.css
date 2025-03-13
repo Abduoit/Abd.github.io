@@ -315,6 +315,16 @@ h3 a:hover {
   margin-bottom: 1.5em; /* Increase space between lines */
 }
 
+/* Increase space between each point in the patent section */
+.patent-list > * {
+  margin-bottom: 1em;
+}
+
+/* Increase space between each point in the research publication section */
+.research-publication-list > * {
+  margin-bottom: 1em;
+}
+
 /* Research */
 .research-item {
   display: flex;
