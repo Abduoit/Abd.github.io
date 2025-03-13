@@ -317,12 +317,12 @@ h3 a:hover {
 
 /* Increase space between each point in the patent section */
 .patent-list > * {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* Increase space between each point in the research publication section */
 .research-publication-list > * {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* Research */
